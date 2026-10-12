@@ -1,0 +1,9 @@
+[project]
+name = "mlops"
+version = "0.1.0"
+description = "Agile and Scrum Demo - Iris Flower Classification"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "scikit-learn>=1.4.0",
+]

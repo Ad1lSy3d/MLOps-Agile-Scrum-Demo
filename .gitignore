@@ -1,0 +1,12 @@
+# Virtual Environment created by uv
+.venv/
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Operating System files
+.DS_Store
+Thumbs.db
