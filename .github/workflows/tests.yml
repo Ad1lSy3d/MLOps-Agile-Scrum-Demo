@@ -10,8 +10,11 @@ on:
 
 jobs:
   test:
-    name: Run Unit Tests and Pipeline Verification
+    name: Run Unit Tests and Pipeline Verification (Experiment 1)
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Experiment_1_Agile_Scrum_Demo
 
     steps:
       - name: Check out repository
